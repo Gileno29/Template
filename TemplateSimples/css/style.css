@@ -25,14 +25,18 @@ li>a{color: white;font-size:18px;}
 
 .logo{
 	position: absolute;
-	top: 0px;
-	margin-left: 5px;
+	top: 6px;
+	left: 40px;
+	background-color: white;
+	border-radius: 100%;
+
 
 }
 
 .logo>img{
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
+	padding: 10px;
 }
 .menu{
 	padding-bottom: 25px;
@@ -46,11 +50,14 @@ li>a{color: white;font-size:18px;}
 
 }
 
+
 .menu>ul>li>a:hover{
 	background-color: white;
 	color: black;
 	/*border-radius: 25%;*/
 	transition: all 0.3s;
+
+
 
 }
 
@@ -59,6 +66,7 @@ li>a{color: white;font-size:18px;}
 	display: flex;
 	flex-direction: column;
 	/*margin-left: 30px;*/
+	
 }
 
 
@@ -93,16 +101,22 @@ li>a{color: white;font-size:18px;}
 	text-align: center;
 	color: white;
 }
+
+.Presentation{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 25px;
+}
 .description{
 	margin-top: 8px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 25px;
 
 }
-.description_body{
-	width: 100%;
-}
+
 .text_descrition{
 	width: 370px;
 	height: 200px;
@@ -110,7 +124,7 @@ li>a{color: white;font-size:18px;}
 	text-align: justify;
 	font-size: 13px;
 }
-.button{
+/*.button{
 	display: none;
 	margin-top: 10px;
 	margin-left: 46%;
@@ -119,7 +133,35 @@ li>a{color: white;font-size:18px;}
 	font-size: 25px;
 	border-radius: 25%;
 
+}*/
+
+.shield{
+	background-color: rgba(47, 79, 79,0.4);
+	padding: 3px;
+	margin-left: 6px;
+	margin-bottom: 5px;
 }
+.shield-body{
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shield-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	border-radius: 100%;
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	margin-left: 40%;
+	color: rgba(202, 225, 255,1);
+	border:solid 2px white;
+
+}
+
 .social_icon{
 	margin-left: 15px;
 	width: 37px;
@@ -151,8 +193,6 @@ li>a{color: white;font-size:18px;}
 		width: 100%;
 		float: left;
    		padding: 0px;
-    	
-
 	}
 
 @media only screen and (min-width: 768px){
@@ -176,9 +216,9 @@ li>a{color: white;font-size:18px;}
 	display: flex;
 }
 
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
 	/*for tablets*/
-    .col-s-1 {width: 8.33%;}
+   /* .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
     .col-s-4 {width: 33.33%;}
@@ -190,22 +230,26 @@ li>a{color: white;font-size:18px;}
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-}
+}*/
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.logo{display: none;}
-
-
 } 
+	.menu>ul>li>a{
+		padding:5px;
+	}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 	.header{ position: fixed; }
+	.logo{margin-left: -38px;}
 	.menu{margin-left: 0px;}
 	.menu>ul{flex-direction: row;margin-left: 10px;}
-	.menu>ul>li{margin-left: 90px;}
-	.menu>ul>li>a{font-size: 22px;}
+	.menu>ul>li{margin-left: 30px;}
+	.menu>ul>li>a{font-size: 22px; padding: 36px;}
+	.text_descrition{font-size: 13px; width: 380px;}
 	.buttont{visibility: hidden;	}
 	.card{margin-left: 200px;}
 	
@@ -214,9 +258,10 @@ li>a{color: white;font-size:18px;}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-	.menu>ul>li{margin-left: 130px;}
+	.menu>ul>li{margin-left: 50px;}
 	.menu>ul>li>a{font-size: 22px;}
 	.buttont{visibility: hidden;}
+	.text_descrition{font-size: 15px; width: 450px;}
 	
 	.card{margin-left: 270px;}
 
@@ -224,7 +269,7 @@ li>a{color: white;font-size:18px;}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-	.menu>ul>li{margin-left: 180px;}
+	.menu>ul>li{margin-left: 80px;}
 	.menu>ul>li>a{font-size: 22px;}
 	.buttont{visibility: hidden;}
 	
@@ -237,7 +282,7 @@ li>a{color: white;font-size:18px;}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 	.menu{margin-left: 40px;}
-	.menu>ul>li{margin-left: 150px;}
+	.menu>ul>li{margin-left: 100px;}
 	.menu>ul>li>a{font-size: 25px; padding: 36px;}
 	.buttont{visibility: hidden;}
 	.card{margin-left: 550px;}
