@@ -24,5 +24,6 @@ It is responsive, but it is not fully tuned yet. All images were taken from free
 ![FOOTER](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/footer.PNG)
 
 ## CSS - Midia Queries
+![FOOTER](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/midiaqueries.PNG)
 
 
