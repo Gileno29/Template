@@ -31,4 +31,6 @@ I decided to make the whole process of responsiveness without the aid of framewo
 
 ![FOOTER](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/Giftemplate.gif)
 
+## Adaptative
 
+![FOOTER](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/adaptative.gif) ![FOOTER](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/adaptative2.gif)
