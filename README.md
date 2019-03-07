@@ -7,6 +7,7 @@ It is responsive, but it is not fully tuned yet. All images were taken from free
 ![MENU](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/menu.PNG)
 
 
+I used a system similar to that of the Bootstrap to set the name of the classes and the way will be organized.
 ### Perfil
 ![PRESENTATION](https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/identification.PNG)
 
