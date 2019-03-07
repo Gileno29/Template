@@ -25,7 +25,7 @@ It is responsive, but it is not fully tuned yet. All images were taken from free
 
 ## CSS - Media Queries
 I decided to make the whole process of responsiveness without the aid of framework to achieve a better understanding of the functioning of Media Queries.
-<img src="https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/midiaqueries.PNG" width="150" height="150">
+<img src="https://github.com/Gileno29/Template/blob/master/TemplateSimples/img/read.me/midiaqueries.PNG" width="500" height="400">
 
 ## Finalized!
 
